@@ -11,6 +11,8 @@ namespace GestionProjetAppBack.Data
         }
 
         public new DbSet<User> Users { get; set; }
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<Tache> Taches { get; set; }
         // Ajoutez d'autres entités ici
     }
 }
